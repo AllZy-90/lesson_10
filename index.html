@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson_10 - BEM Methodology</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container block-header">
+                <div class="block-header__image">
+                    <img class="block-header__logo" src="img/svg/logo-black.svg" alt="logo">
+                </div>
+                <nav class="block-header__nav nav-header">
+                    <ul class="nav-header__list">
+                        <li class="nav-header__item">About Us</li>
+                        <li class="nav-header__item">Courses</li>
+                        <li class="nav-header__item">Events</li>
+                        <li class="nav-header__item">Blog</li>
+                        <li class="nav-header__item">Contacts</li>
+                    </ul>
+                </nav>
+                <div class="block-header__registration">
+                    <a href="#" class="block-header__button button">Get consultation</a>
+                    <a href="#" class="block-header__log-in">Log in / Register</a>
+                </div>
+            </div>
+        </header>
+        <main id="up" class="main">
+            <div class="main__container">
+                <div class="enjoy-studying">
+                    <div class="enjoy-studying__container">
+                        <a href="#" class="enjoy-studying__link-video">
+                            <img class="enjoy-studying__image" src="img/svg/small.svg" alt="play">
+                        </a>
+                        Play showreel
+                        <h1 class="enjoy-studying__title">Enjoy studying
+                            with Createx Online Courses</h1>
+                        <div class="enjoy-studying__button">
+                            <a href="#" class="enjoy-studying__link button">About us</a>
+                            <a href="#" class="enjoy-studying__link button">Explore courses</a>
+                        </div>
+                        <div class="enjoy-studying__picture">
+                            <img width="602" src="img/svg/top-image.svg" alt="image" class="enjoy-studying__img">
+                        </div>
+                        <div class="enjoy-studying__statistics statistics-desc">
+                            <p class="statistics-desc__number">1200</p>
+                            <p class="statistics-desc__text">Students graduated</p>
+                            <p class="statistics-desc__number">84</p>
+                            <p class="statistics-desc__text">Completed courses</p>
+                            <p class="statistics-desc__number">16</p>
+                            <p class="statistics-desc__text">Qualified tutors</p>
+                            <p class="statistics-desc__number">5</p>
+                            <p class="statistics-desc__text">Qualified tutors</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="who-we-are">
+                    <div class="who-we-are__container">
+                        <div class="who-we-are__picture">
+                            <picture>
+                                <source class="who-we-are__webp" srcset="img/webp/who-we-are.webp" type="image/webp">
+                                <img class="who-we-are__jpg" src="img/who-we-are.jpg" alt="who we are">
+                            </picture>
+                        </div>
+                        <div class="who-we-are__content">
+                            <div class="block-caption">
+                                <h3 class="block-caption__subtitle">Who we are</h3>
+                                <h2 class="block-caption__title">Why Createx?</h2>
+                            </div>
+                            <ul class="block-list list">
+                                <li class="block-list__item">A fermentum in morbi pretium aliquam adipiscing donec
+                                    tempus.</li>
+                                <li class="block-list__item">Vulputate placerat amet pulvinar lorem nisl.</li>
+                                <li class="block-list__item">Consequat feugiat habitant gravida quisque elit bibendum id
+                                    adipiscing sed.</li>
+                                <li class="block-list__item">Etiam duis lobortis in fames ultrices commodo nibh.</li>
+                                <li class="block-list__item">Tincidunt sagittis neque sem ac eget.</li>
+                                <li class="block-list__item">Ultricies amet justo et eget quisque purus vulputate
+                                    dapibus tortor.</li>
+                            </ul>
+                            <a href="#" class="who-we-are__button button">More about us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ready-to-learn">
+                    <div class="ready-to-learn__container">
+                        <div class="block-caption">
+                            <h3 class="block-caption__subtitle">Ready to learn?</h3>
+                            <h2 class="block-caption__title">Featured Courses</h2>
+                        </div>
+                        <a href="#" class="ready-to-learn__link button">View all courses</a>
+                        <div class="ready-to-learn__content">
+                            <div class="ready-to-learn__cards card">
+                                <div class="card__item">
+                                    <picture>
+                                        <source class="card__webp" srcset="img/webp/jerome-bell.webp" type="image/webp">
+                                        <img class="card__jpg" src="img/card-jpg/jerome-bell.jpg" alt="Jerome Bell">
+                                    </picture>
+                                    <div class="card__content">
+                                        <p class="card__proffesion proffesion_marketing">Marketing</p>
+                                        <p class="card__title">The Ultimate Google Ads Training Course</p>
+                                        <p class="card__price">$100</p>
+                                        <p class="card__speaker">by Jerome Bell</p>
+                                    </div>
+                                </div>
+                                <div class="card__item">
+                                    <picture>
+                                        <source class="card__webp" srcset="img/webp/leslie-alexander-li.webp"
+                                            type="image/webp">
+                                        <img class="card__jpg" src="img/card-jpg/leslie-alexander-li.jpg"
+                                            alt="Leslie Alexander Li">
+                                    </picture>
+                                    <div class="card__content">
+                                        <p class="card__proffesion proffesion_hr-recruting">HR & Recruting</p>
+                                        <p class="card__title">HR Management and Analytics</p>
+                                        <p class="card__price">$200</p>
+                                        <p class="card__speaker">by Leslie Alexander Li</p>
+                                    </div>
+                                </div>
+                                <div class="card__item">
+                                    <picture>
+                                        <source class="card__webp" srcset="img/webp/dianne-russell.webp"
+                                            type="image/webp">
+                                        <img class="card__jpg" src="img/card-jpg/dianne-russell.jpg"
+                                            alt="Dianne Russell">
+                                    </picture>
+                                    <div class="card__content">
+                                        <p class="card__proffesion proffesion_management">Management</p>
+                                        <p class="card__title">Business Development Management</p>
+                                        <p class="card__price">$400</p>
+                                        <p class="card__speaker">by Dianne Russell</p>
+                                    </div>
+                                </div>
+                                <div class="card__item">
+                                    <picture>
+                                        <source class="card__webp" srcset="img/webp/marvin-mckinney.webp"
+                                            type="image/webp">
+                                        <img class="card__jpg" src="img/card-jpg/marvin-mckinney.jpg"
+                                            alt="Marvin McKinney">
+                                    </picture>
+                                    <div class="card__content">
+                                        <p class="card__proffesion proffesion_management">Management</p>
+                                        <p class="card__title">Prduct Management Fundamentals</p>
+                                        <p class="card__price">$480</p>
+                                        <p class="card__speaker">by Marvin McKinney</p>
+                                    </div>
+                                </div>
+                                <div class="card__item">
+                                    <picture>
+                                        <source class="card__webp" srcset="img/webp/kristin-watson.webp"
+                                            type="image/webp">
+                                        <img class="card__jpg" src="img/card-jpg/kristin-watson.jpg"
+                                            alt="Kristin Watson">
+                                    </picture>
+                                    <div class="card__content">
+                                        <p class="card__proffesion proffesion_marketing">Marketing</p>
+                                        <p class="card__title">Brand Management & PR Communications</p>
+                                        <p class="card__price">$530</p>
+                                        <p class="card__speaker">by Kristin Watson</p>
+                                    </div>
+                                </div>
+                                <div class="card__item">
+                                    <picture>
+                                        <source class="card__webp" srcset="img/webp/guy-hawkins.webp" type="image/webp">
+                                        <img class="card__jpg" src="img/card-jpg/guy-hawkins.jpg" alt="Guy Hawkins">
+                                    </picture>
+                                    <div class="card__content">
+                                        <p class="card__proffesion proffesion_design">Design</p>
+                                        <p class="card__title">Graphic Design Basic</p>
+                                        <p class="card__price">$500</p>
+                                        <p class="card__speaker">by Guy Hawkins</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-benefits">
+                    <div class="our-benefits__container">
+                        <div class="block-caption caption_center">
+                            <h3 class="block-caption__subtitle">Ready to learn?</h3>
+                            <h2 class="block-caption__title">Featured Courses</h2>
+                        </div>
+                        <div class="our-benefits__tabs">
+                            <div class="tab">
+                                <p class="tab__text">Experienced Tutors</p>
+                            </div>
+                            <div class="tab">
+                                <p class="tab__text">Feedback & Support</p>
+                            </div>
+                            <div class="tab">
+                                <p class="tab__text">24/7 Online Library</p>
+                            </div>
+                            <div class="tab">
+                                <p class="tab__text">Community</p>
+                            </div>
+                        </div>
+                        <div class="our-benefits__content">
+                            <h4 class="our-benefits__title">Only practicing tutors</h4>
+                            <p class="our-benefits__subtitle">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non
+                                fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue.
+                                Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum.
+                                Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
+                            <div class="our-benefits__picture">
+                                <img src="img/svg/benefits.svg" alt="Our benefits" class="our-benefits__image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-events">
+                    <div class="our-events__container">
+                        <div class="block-caption caption_center">
+                            <h3 class="block-caption__subtitle">Our Events</h3>
+                            <h2 class="block-caption__title">Lectures & workshops</h2>
+                        </div>
+                        <div class="our-events__content">
+                            <div class="our-events__cards">
+                                <div class="card__elements">
+                                    <div class="card__date date">
+                                        <p class="date__number">05</p>
+                                        <p class="date__month">August</p>
+                                        <p class="date__time">11:00 – 14:00</p>
+                                    </div>
+                                    <div class="card__desc">
+                                        <p class="card__title">Formation of the organizational structure of the company
+                                            in the face of uncertainty.</p>
+                                        <p class="card__subtitle">Onine master-class</p>
+                                    </div>
+                                    <a href="#" class="card__button button">View more</a>
+                                </div>
+                                <div class="card__elements">
+                                    <div class="card__date date">
+                                        <p class="date__number">24</p>
+                                        <p class="date__month">July</p>
+                                        <p class="date__time">11:00 – 12:30</p>
+                                    </div>
+                                    <div class="card__desc">
+                                        <p class="card__title">Building a customer service department. Best Practices.
+                                        </p>
+                                        <p class="card__subtitle">Onine lecture</p>
+                                    </div>
+                                    <a href="#" class="card__button button">View more</a>
+                                </div>
+                                <div class="card__elements">
+                                    <div class="card__date date">
+                                        <p class="date__number">16</p>
+                                        <p class="date__month">July</p>
+                                        <p class="date__time">10:00 – 13:00</p>
+                                    </div>
+                                    <div class="card__desc">
+                                        <p class="card__title">How to apply methods of speculative design in practice.
+                                            Worldbuilding prototyping.</p>
+                                        <p class="card__subtitle">Onine workshop</p>
+                                    </div>
+                                    <a href="#" class="card__button button">View more</a>
+                                </div>
+                            </div>
+                            <p class="our-events__question">Do you want more?</p>
+                            <a href="#" class="our-events__link button">Explore all events</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate">
+                    <div class="certificate__container">
+                        <div class="block-caption">
+                            <h3 class="block-caption__subtitle">Our Events</h3>
+                            <h2 class="block-caption__title">Lectures & workshops</h2>
+                        </div>
+                        <p class="certificate__desc">
+                            We are accredited by international professional organizations and institutes:
+                        </p>
+                        <div class="certificate__logos logos">
+                            <div class="logos__picture">
+                                <picture>
+                                    <source class="logos__webp" srcset="img/sertificate-img/del-mar-strategy.webp"
+                                        type="image/webp">
+                                    <img class="logos__jpg" src="img/sertificate-img/del-mar-strategy.png"
+                                        alt="Del Mar Strategy">
+                                </picture>
+                                <picture>
+                                    <source class="logos__webp" srcset="img/sertificate-img/sentinal-consulting.webp"
+                                        type="image/webp">
+                                    <img class="logos__jpg" src="img/sertificate-img/sentinal-consulting.png"
+                                        alt="Sentional Consulting">
+                                </picture>
+                                <picture>
+                                    <source class="logos__webp" srcset="img/sertificate-img/national.webp"
+                                        type="image/webp">
+                                    <img class="logos__jpg" src="img/sertificate-img/national.png" alt="National">
+                                </picture>
+                            </div>
+                            <div class="certificate__picture">
+                                <picture>
+                                    <source class="certificate__webp" srcset="img/sertificate-img/certificate.webp"
+                                        type="image/webp">
+                                    <img class="certificate__jpg" src="img/sertificate-img/certificate.png"
+                                        alt="Certificate">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team__container">
+                        <div class="block-caption">
+                            <h3 class="block-caption__subtitle">Our Events</h3>
+                            <h2 class="block-caption__title">Lectures & workshops</h2>
+                        </div>
+                        <div class="team-cards">
+                            <div class="team-cards__card">
+                                <picture>
+                                    <source class="team-cards__webp" srcset="img/webp/dianne-russell.webp"
+                                        type="image/webp">
+                                    <img class="team-cards__jpg" src="img/card-jpg/dianne-russell.jpg"
+                                        alt="Dianne Russell">
+                                </picture>
+                                <p class="team-cards__title">Dianne Russell</p>
+                                <p class="team-cards__subtitle">Founder and CEO</p>
+                            </div>
+                            <div class="team-cards__card">
+                                <picture>
+                                    <source class="team-cards__webp" srcset="img/webp/jerome-bell.webp"
+                                        type="image/webp">
+                                    <img class="team-cards__jpg" src="img/card-jpg/jerome-bell.jpg" alt="Jerome Bell">
+                                </picture>
+                                <p class="team-cards__title">Jerome Bell</p>
+                                <p class="team-cards__subtitle">Founder and Program Director</p>
+                            </div>
+                            <div class="team-cards__card">
+                                <picture>
+                                    <source class="team-cards__webp" srcset="img/webp/kristin-watson.webp"
+                                        type="image/webp">
+                                    <img class="team-cards__jpg" src="img/card-jpg/kristin-watson.jpg"
+                                        alt="Kristin Watson">
+                                </picture>
+                                <p class="team-cards__title">Kristin Watson</p>
+                                <p class="team-cards__subtitle">Marketer, Curator of Marketing Course</p>
+                            </div>
+                            <div class="team-cards__card">
+                                <picture>
+                                    <source class="team-cards__webp" srcset="img/webp/marvin-mckinney.webp"
+                                        type="image/webp">
+                                    <img class="team-cards__jpg" src="img/card-jpg/marvin-mckinney.jpg"
+                                        alt="Marvin McKinney">
+                                </picture>
+                                <p class="team-cards__title">Marvin McKinney</p>
+                                <p class="team-cards__subtitle">PM, Curator of Management Course</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials">
+                    <div class="testimonials__container">
+                        <div class="block-caption caption_center">
+                            <h3 class="block-caption__subtitle">Our Events</h3>
+                            <h2 class="block-caption__title">Lectures & workshops</h2>
+                        </div>
+                        <div class="testimonials__content">
+                            <p class="testimonials__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus
+                                facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod
+                                vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
+                            <div class="testimonials__picture">
+                                <picture>
+                                    <source class="testimonials__webp" srcset="img/webp/eleanor-pena.webp"
+                                        type="image/webp">
+                                    <img class="testimonials__jpg" src="img/eleanor-pena.png" alt="Eleanor Pena">
+                                </picture>
+                            </div>
+                            <p class="testimonials__author">Eleanor Pena</p>
+                            <p class="testimonials__text-small">Position, Course</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-blog">
+                    <div class="our-blog__container">
+                        <div class="block-caption">
+                            <h3 class="block-caption__subtitle">Our Events</h3>
+                            <h2 class="block-caption__title">Lectures & workshops</h2>
+                        </div>
+                        <a href="#" class="our-blog__link button">Go to blog</a>
+                        <div class="blog-cards">
+                            <div class="blog-cards card-blog">
+                                <picture>
+                                    <source class="card-blog__webp" srcset="img/blog/marketing-blog.webp"
+                                        type="image/webp">
+                                    <img class="card-blog__jpg" src="img/blog/marketing-blog.jpg" alt="Marketing">
+                                </picture>
+                                <div class="card-blog__content">
+                                    <div class="card-blog__meta meta">
+                                        <p class="meta__marketing">Marketing</p>
+                                        <p class="meta__date">September 4, 2020</p>
+                                        <p class="meta__length">36 min</p>
+                                    </div>
+                                    <div class="card-blog__caption">
+                                        <p class="card-blog__desc">What is traffic arbitrage and does it really make
+                                            money?</p>
+                                        <p class="card-blog__text">Pharetra, ullamcorper iaculis viverra parturient sed
+                                            id sed. Convallis proin dignissim lacus, purus gravida...</p>
+                                    </div>
+                                    <a href="#" class="card-blog__link">Listen</a>
+                                </div>
+                            </div>
+                            <div class="blog-cards card-blog">
+                                <picture>
+                                    <source class="card-blog__webp" srcset="img/blog/management-blog.webp"
+                                        type="image/webp">
+                                    <img class="card-blog__jpg" src="img/blog/management-blog.jpg" alt="Management">
+                                </picture>
+                                <div class="card-blog__content">
+                                    <div class="card-blog__meta meta">
+                                        <p class="meta__marketing">Management</p>
+                                        <p class="meta__date">August 25, 2020</p>
+                                        <p class="meta__length">45 min</p>
+                                    </div>
+                                    <div class="card-blog__caption">
+                                        <p class="card-blog__desc">What to do and who to talk to if you want to get
+                                            feedback on the product</p>
+                                        <p class="card-blog__text">Neque a, senectus consectetur odio in aliquet nec eu.
+                                            Ultricies ac nibh urna urna sagittis faucibus...</p>
+                                    </div>
+                                    <a href="#" class="card-blog__link">Watch</a>
+                                </div>
+                            </div>
+                            <div class="blog-cards card-blog">
+                                <picture>
+                                    <source class="card-blog__webp" srcset="img/blog/design-blog.webp"
+                                        type="image/webp">
+                                    <img class="card-blog__jpg" src="img/blog/design-blog.jpg" alt="Design">
+                                </picture>
+                                <div class="card-blog__content">
+                                    <div class="card-blog__meta meta">
+                                        <p class="meta__marketing">Design</p>
+                                        <p class="meta__date">August 8, 2020</p>
+                                    </div>
+                                    <div class="card-blog__caption">
+                                        <p class="card-blog__desc">Should you choose a creative profession if you are
+                                            attracted to creativity?</p>
+                                        <p class="card-blog__text">Curabitur nisl tincidunt eros venenatis vestibulum ac
+                                            placerat. Tortor, viverra sed vulputate ultrices...</p>
+                                    </div>
+                                    <a href="#" class="card-blog__link">Read</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <div class="subscribe__container">
+                        <div class="block-caption caption_center">
+                            <h3 class="block-caption__subtitle">Don’t miss anything</h3>
+                            <h2 class="block-caption__title">Subscribe to the Createx School announcements</h2>
+                        </div>
+                        <form action="#" class="subscribe__form form">
+                            <label>
+                                <input value="Your working email" type="text">
+                            </label>
+                            <a href="#" class="form__link button">Subscribe</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="createx-footer footer__content">
+                    <div class="createx-footer__picture">
+                        <img src="img/svg/logo-white.svg" alt="logo" class="createx-footer__image">
+                    </div>
+                    <p class="createx-footer__text">Createx Online School is a leader in online studying. We have lots
+                        of courses and programs from the main market experts. We provide relevant approaches to online
+                        learning, internships and employment in the largest companies in the country. </p>
+                    <div class="createx-footer__socials social-link">
+                        <a class="social-link__facebook" href="#">
+                            <img src="img/svg/socials/facebook.svg" alt="facebook">
+                        </a>
+                        <a class="social-link__twitter" href="#">
+                            <img src="img/svg/socials/twitter.svg" alt="twitter">
+                        </a>
+                        <a class="social-link__youtube" href="#">
+                            <img src="img/svg/socials/youtube.svg" alt="youtube">
+                        </a>
+                        <a class="social-link__telegram" href="#">
+                            <img src="img/svg/socials/telegram.svg" alt="telegram">
+                        </a>
+                        <a class="social-link__instagram" href="#">
+                            <img src="img/svg/socials/instagram.svg" alt="instagram">
+                        </a>
+                        <a class="social-link__linkedin" href="#">
+                            <img src="img/svg/socials/linked-in.svg" alt="linkedin">
+                        </a>
+                    </div>
+                    <div class="createx-footer__block">
+                        <div class="site-map__block">
+                            <h5 class="site-map__title">SITE MAP</h5>
+                            <a class="site-map__link" href="#">About Us</a>
+                            <a class="site-map__link" href="#">Courses</a>
+                            <a class="site-map__link" href="#">Events</a>
+                            <a class="site-map__link" href="#">Blog</a>
+                            <a class="site-map__link" href="#">Contacts</a>
+                        </div>
+                        <div class="courses__block">
+                            <h5 class="courses__title">COURSES</h5>
+                            <a class="courses__link" href="#">Marketing</a>
+                            <a class="courses__link" href="#">Management</a>
+                            <a class="courses__link" href="#">HR & Recruting</a>
+                            <a class="courses__link" href="#">Design</a>
+                            <a class="courses__link" href="#">Development</a>
+                        </div>
+                        <div class="contact-us__block">
+                            <p class="contact-us__phone">(405) 555-0128</p>
+                            <p class="contact-us__email">hello@createx.com</p>
+                        </div>
+                    </div>
+                    <div class="createx-footer__form footer-form">
+                        <h5 class="footer-form__title">SIGN UP TO OUR NEWSLETTER</h5>
+                        <form action="#" class="footer-form__form">
+                            <label>
+                                <input value="Email address" type="text">
+                            </label>
+                        </form>
+                        <p class="footer-form__subtitle">*Subscribe to our newsletter to receive communications and
+                            early updates from Createx SEO Agency.</p>
+                    </div>
+                    <div class="copyright">
+                        <p class="copyright__text">© All rights reserved.</p>
+                        <p class="copyright__text">Made with</p>
+                        <p class="copyright__text">by Createx Studio </p>
+                    </div>
+                    <a href="#up" class="link-up">GO TO TOP</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
